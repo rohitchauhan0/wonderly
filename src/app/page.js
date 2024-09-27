@@ -1,4 +1,5 @@
 "use client"
+import Explore from '@/components/Explore'
 import Navbar from '@/components/Navbar'
 import ChatBot from '@/components/chatbot'
 import Package from '@/components/package'
@@ -8,6 +9,7 @@ import React, { useState } from 'react'
 
 const Page = () => {
   const [modal, setmodal] = useState(false)
+  
 
   return (
     <>
@@ -57,13 +59,17 @@ const Page = () => {
 
 
         <SliceComp src={"/image6.jpg"} heading={"Giving yourself a break"} para={"Giving yourself a break is essential for rejuvenation. As J.R.R. Tolkien said, Not all those who wander are lost. Sometimes, taking a step back from the hustle allows you to reconnect with yourself, unwind, and come back stronger. It's about embracing the freedom to breathe, relax, and recharge."} />
+  
 
 
 
         <button className='w-fit h-fit' onClick={() => setmodal(true)}>
-          <Image src="/robot.png" alt="Robot" width={100} height={60} className='fixed bottom-10 right-0 cursor-pointer hover:scale-105 transition-all duration-200 animate-bounce' />
+          <Image src="/robot.png" alt="Robot" width={100} height={60} className='fixed bottom-10 right-0 cursor-pointer hover:scale-105 transition-all duration-200 animate-bounce z-[1000]' />
         </button>
       </div>
+        <div className=' w-full bg-black'>
+          <Explore />
+        </div>
       {
         modal && <ChatBot setModal={setmodal} />
       }

@@ -101,3 +101,73 @@
     background: #f69a1a; /* Color of the thumb */
     cursor: pointer;
   }
+
+
+
+
+
+
+  /* Custom Swiper Pagination Styles */
+.mySwiper .swiper-pagination {
+    bottom: 30px; /* Adjust the position of pagination dots */
+}
+@media (min-width: 200px) and (max-width: 900px) {
+  .mySwiper .swiper-pagination {
+    bottom: 70px; /* Adjust the position of pagination dots */
+}
+}
+  
+  .swiper-pagination-bullet {
+    background-color: #535353ac; /* Change the background color of pagination dots */
+    width: 7px; /* Change the width of pagination dots */
+    height: 7px; /* Change the height of pagination dots */
+    margin: 0 5px; /* Adjust the space between pagination dots */
+    opacity: 0.5;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #ff8f33; /* Change the background color of active pagination dot */
+    opacity: 1; /* Adjust the opacity of active pagination dot */
+  }
+ /* Custom Swiper Navigation Styles */
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #ffffff; /* Background color of arrows */
+  color: #000000; /* Arrow color */
+  width: 20px !important; /* Width of arrows */
+  height: 20px !important; /* Height of arrows */
+  border-radius: 50%;  /* Make arrows circular */
+  font-size: 10px; /* Font size of arrows */
+  line-height: 20px; /* Center arrows vertically */
+  text-align: center; /* Center arrows horizontally */
+  opacity: 1; /* Initial opacity of arrows */
+  position: absolute; /* Position arrows absolutely */
+  top: 50%; /* Position arrows vertically in the middle */
+  transform: translateY(-50%); /* Adjust vertical alignment */
+  z-index: 10; /* Ensure arrows are above slides */
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+  .swiper-button-prev,
+.swiper-button-next  {
+  top: 40%; /* Adjust the position of pagination dots */
+}
+}
+
+.swiper-button-prev {
+  left: 20px; /* Position previous arrow to the left */
+}
+
+.swiper-button-next {
+  right: 20px; /* Position next arrow to the right */
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 1; /* Increase opacity on hover */
+}
+
+
+:root {
+  --swiper-navigation-size: 15px;
+}
