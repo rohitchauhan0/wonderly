@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['images.pexels.com', 'media.licdn.com', 'ajay-portfolio-theta.vercel.app','plus.unsplash.com', 'unsplash.com','images.unsplash.com'],
+        domains: ['images.pexels.com', 'media.licdn.com', 'ajay-portfolio-theta.vercel.app','plus.unsplash.com', 'unsplash.com','images.unsplash.com', 'www.pexels.com'],
     },
     webpack(config) {
       // Add a rule to handle audio files
