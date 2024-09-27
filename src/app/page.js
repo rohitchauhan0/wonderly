@@ -24,7 +24,7 @@ const Page = () => {
 
           <p className=' text-white text-center'>At <span className=' font-mono text-3xl bg-gradient-to-r from-yellow-500 to-yellow-700 bg-clip-text text-transparent'>Wonderly</span>, we specialize in crafting unforgettable experiences that bring families closer together through adventure and exploration. Our fun-filled family tours are designed to ignite curiosity, foster connections, and create lasting memories for every member of the family, from the youngest adventurers to the wisest travelers.
 
-Imagine embarking on a journey where laughter echoes through the mountains, exciting discoveries await around every corner, and the beauty of nature unfolds before your eyes. Whether it’s hiking through breathtaking landscapes, exploring vibrant cities, or indulging in local cuisines, our curated itineraries ensure that every moment is packed with excitement and joy.
+Imagine embarking on a journey where laughter echoes through the mountains, exciting discoveries await around every corner, and the beauty of nature unfolds before your eyes. Whether it&#39;s hiking through breathtaking landscapes, exploring vibrant cities, or indulging in local cuisines, our curated itineraries ensure that every moment is packed with excitement and joy.
 
 Safety and comfort are our top priorities, so you can focus on enjoying the adventure with your loved ones. Our knowledgeable guides are passionate about sharing their love for travel, culture, and the great outdoors, making each tour not only enjoyable but also educational.</p>
         </div>

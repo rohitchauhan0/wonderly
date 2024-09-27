@@ -71,7 +71,7 @@ const ContactPage = () => {
          </h2>
 
          <p className="mb-4">
-           If you have any questions, please don't hesitate to contact us
+           If you have any questions, please don&apos;t hesit hesitate to contact us
          </p>
 
          <div className="mb-4">
