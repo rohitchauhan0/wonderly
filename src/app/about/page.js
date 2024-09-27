@@ -2,34 +2,34 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import React from "react";
 
-const TeamMember = ({ name, title, image, description }) => (
-  <div className="p-6 bg-gradient-to-br from-gray-700 via-gray-800 to-black rounded-lg hover:shadow-xl transition duration-300 hover:scale-105">
-    <Image
-      width={200}
-      height={200}
-      src={image}
-      alt={name}
-      className="w-40 h-40 mx-auto rounded-full mb-4 object-cover"
-    />
-    <h3 className="text-2xl   font-semibold text-yellow-400">{name}</h3>
-    <p className="text-yellow-400  ">{title}</p>
-    <p className="text-lg">{description}</p>
-  </div>
-);
+// const TeamMember = ({ name, title, image, description }) => (
+//   <div className="p-6 bg-gradient-to-br from-gray-700 via-gray-800 to-black rounded-lg hover:shadow-xl transition duration-300 hover:scale-105">
+//     <Image
+//       width={200}
+//       height={200}
+//       src={image}
+//       alt={name}
+//       className="w-40 h-40 mx-auto rounded-full mb-4 object-cover"
+//     />
+//     <h3 className="text-2xl   font-semibold text-yellow-400">{name}</h3>
+//     <p className="text-yellow-400  ">{title}</p>
+//     <p className="text-lg">{description}</p>
+//   </div>
+// );
 
-const Testimonial = ({ name, feedback, image }) => (
-  <div className="p-6 bg-gradient-to-br from-gray-700 via-gray-800 to-black rounded-lg hover:shadow-xl transition duration-300">
-    <Image
-      width={200}
-      height={200}
-      src={image}
-      alt={name}
-      className="w-24 h-24 mx-auto rounded-full mb-4 object-cover"
-    />
-    <h4 className="text-xl   font-semibold text-yellow-400">{name}</h4>
-    <p className="text-lg italic text-yellow-300">"{feedback}"</p>
-  </div>
-);
+// const Testimonial = ({ name, feedback, image }) => (
+//   <div className="p-6 bg-gradient-to-br from-gray-700 via-gray-800 to-black rounded-lg hover:shadow-xl transition duration-300">
+//     <Image
+//       width={200}
+//       height={200}
+//       src={image}
+//       alt={name}
+//       className="w-24 h-24 mx-auto rounded-full mb-4 object-cover"
+//     />
+//     <h4 className="text-xl   font-semibold text-yellow-400">{name}</h4>
+//     <p className="text-lg italic text-yellow-300">"{feedback}"</p>
+//   </div>
+// );
 
 const AboutPage = () => {
   return (
@@ -140,7 +140,7 @@ const AboutPage = () => {
           </div>
         </section>
 
-        <section className="py-16 bg-black px-4">
+        {/* <section className="py-16 bg-black px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-4xl   font-bold text-yellow-400 mb-12">
               Our Team
@@ -160,7 +160,7 @@ const AboutPage = () => {
               />
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="py-16 bg-gradient-to-b from-yellow-500 to-yellow-800 text-black text-center">
           <div className="max-w-7xl mx-auto">
@@ -180,7 +180,7 @@ const AboutPage = () => {
           </div>
         </section>
 
-        <section className="py-16 bg-black px-4">
+        {/* <section className="py-16 bg-black px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-4xl   font-bold text-yellow-400 mb-12">
               Testimonials
@@ -198,7 +198,7 @@ const AboutPage = () => {
               />
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* FAQ Section */}
         <section className="py-16 bg-black px-4">
