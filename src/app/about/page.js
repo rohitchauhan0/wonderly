@@ -1,9 +1,12 @@
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
 import React from "react";
 
 const TeamMember = ({ name, title, image, description }) => (
   <div className="p-6 bg-gradient-to-br from-gray-700 via-gray-800 to-black rounded-lg hover:shadow-xl transition duration-300 hover:scale-105">
-    <img
+    <Image
+      width={200}
+      height={200}
       src={image}
       alt={name}
       className="w-40 h-40 mx-auto rounded-full mb-4 object-cover"
@@ -16,7 +19,9 @@ const TeamMember = ({ name, title, image, description }) => (
 
 const Testimonial = ({ name, feedback, image }) => (
   <div className="p-6 bg-gradient-to-br from-gray-700 via-gray-800 to-black rounded-lg hover:shadow-xl transition duration-300">
-    <img
+    <Image
+      width={200}
+      height={200}
       src={image}
       alt={name}
       className="w-24 h-24 mx-auto rounded-full mb-4 object-cover"
