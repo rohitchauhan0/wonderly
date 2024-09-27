@@ -145,13 +145,13 @@ const AboutPage = () => {
                 name="Rohit Chauhan"
                 title="Website Developer (Founder)"
                 image="https://media.licdn.com/dms/image/v2/D4D35AQEiObQloOpm0g/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1719446155159?e=1728028800&v=beta&t=byudY5vU7Is_2XvGirqfoC5j7BOf2-FTXguh1Q3QBV0"
-                description="John is a passionate web developer who founded our company with a vision to connect people through technology and travel."
+                description="Rohit is a passionate web developer who founded our company with a vision to connect people through technology and travel."
               />
               <TeamMember
                 name="Jane Smith"
                 title="Website Developer (Co-Founder)"
                 image="https://ajay-portfolio-theta.vercel.app/assets/ajayPfp-BFZUmIeH.jpg"
-                description="Jane's expertise in web development and design has been instrumental in shaping our online presence and user experience."
+                description="Ajay is expertise in web development and design has been instrumental in shaping our online presence and user experience."
               />
             </div>
           </div>
