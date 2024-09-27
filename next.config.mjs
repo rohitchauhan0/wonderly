@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['images.pexels.com'],
+        domains: ['images.pexels.com', 'media.licdn.com'],
     },
     webpack(config) {
       // Add a rule to handle audio files
