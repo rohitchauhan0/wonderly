@@ -124,7 +124,7 @@ const AboutPage = () => {
                   className="w-full h-48 object-cover rounded-lg mb-4"
                 />
                 <h3 className="text-2xl   font-semibold text-yellow-400">
-                  Guided Experiences
+                  Guided Experience
                 </h3>
                 <p className="text-lg">
                   Our expert guides ensure you explore every hidden gem and get
