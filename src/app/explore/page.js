@@ -1,4 +1,5 @@
 "use client"
+import Footer from '@/components/Footer'
 import ImageSwiper from '@/components/ImageSwiper'
 import Navbar from '@/components/Navbar'
 import { apiconnector } from '@/config/Apiconnector'
@@ -23,6 +24,7 @@ const Page = () => {
 
     }, [])
   return (
+    <>
     <div className="font-geist-sans h-full bg-black relative overflow-visible">
         <Navbar />
         <div className="w-full bg-black h-screen">
@@ -52,6 +54,8 @@ const Page = () => {
     </div>
         
         </div>
+        <Footer />
+    </>
   )
 }
 

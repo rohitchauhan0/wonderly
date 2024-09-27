@@ -1,4 +1,5 @@
 "use client"
+import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import { apiconnector } from '@/config/Apiconnector'
 import { Star } from 'lucide-react'
@@ -114,6 +115,7 @@ const Page = ({ params }) => {
 
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

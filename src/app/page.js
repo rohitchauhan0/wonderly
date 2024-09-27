@@ -1,5 +1,6 @@
 "use client"
 import Explore from '@/components/Explore'
+import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import ChatBot from '@/components/chatbot'
 import Package from '@/components/package'
@@ -70,6 +71,7 @@ const Page = () => {
         <div className=' w-full bg-black'>
           <Explore />
         </div>
+        <Footer />
       {
         modal && <ChatBot setModal={setmodal} />
       }

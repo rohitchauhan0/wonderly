@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { FacebookIcon, LinkedinIcon, TwitterIcon } from "lucide-react";
 import React from "react";
@@ -112,6 +113,7 @@ const ContactPage = () => {
        </div>
      </div>
    </div>
+   <Footer/>
     </>
   );
 };
