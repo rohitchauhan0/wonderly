@@ -3,9 +3,12 @@ import { apiconnector } from '@/config/Apiconnector'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
+import BookTour from './book-tour'
 
 const Package = () => {
     const [packageData, setpackageData] = useState([])
+  const [payModal, setpayModal] = useState(false)
+
 
     useEffect(() => {
         const fetchData = async () => {
@@ -21,6 +24,7 @@ const Package = () => {
 
     }, [])
     return (
+     <>
         <div className=' max-w-screen-xl mx-auto flex flex-col items-center justify-center space-y-10 py-20'>
             <h1 className=' font-mono text-7xl bg-gradient-to-r from-yellow-500 to-yellow-700 bg-clip-text text-transparent py-1 font-semibold' >Tour Packages</h1>
             <div className='  grid grid-cols-4 gap-8'>
@@ -47,13 +51,21 @@ const Package = () => {
                             </ul>
                           </div>
                           </div>
-                            <button className=' w-fit h-fit bg-gradient-to-r from-yellow-500 to-yellow-700 px-7 py-1 rounded-lg mt-5'>Book Now</button>
+                            <button className=' w-fit h-fit bg-gradient-to-r from-yellow-500 to-yellow-700 px-7 py-1 rounded-lg mt-5' onClick={() => setpayModal({
+                                amount: data.price,
+                                tourId: data._id
+
+                            })}>Book Now</button>
                         </div>
                     ))
                 }
             </div>
 
         </div>
+        {
+            payModal && <BookTour setModal={setpayModal} amount={payModal.amount} tourId={payModal.tourId}  />
+        }
+     </>
     )
 }
 
