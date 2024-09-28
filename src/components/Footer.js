@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <div className="mb-4 flex items-center space-x-5">
-            <Image src="/logo.png" alt="Logo" width={200} height={200} className=" h-20 w-20 rounded-full" />
+            <Image src="/logo.jpeg" alt="Logo" width={200} height={200} className=" h-20 w-20 rounded-full" />
           <h3 className="text-xl font-bold mb-4">Wonderly</h3>
           </div>
           <p className="text-gray-400 rounded-t-sm">
